@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>قروب قصرة جزائري | المجتمع الأول للتعارف والدردشة</title>
-    
-    <!-- Google Search Console Verification -->
+    <title>قروب قصرة جزائري | مجتمع التعارف والدردشة الأول في الجزائر</title>
+
+    <!-- Google Search Console Ownership Verification -->
     <meta name="google-site-verification" content="googlee0bad224ad" />
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Tag Manager / Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -18,97 +18,180 @@
       gtag('config', 'G-XXXXXXXXXX');
     </script>
 
-    <!-- Meta Tags for SEO -->
-    <meta name="description" content="انضم إلى أكبر وأجمل قروب تلغرام جزائري للتعارف والدردشة والقصرة. أجواء احترافية ومجتمع مميز.">
-    <meta name="keywords" content="قروب تلغرام, قروب جزائري, قصرة جزائرية, دردشة جزائرية, تلغرام الجزائر">
+    <!-- Primary Meta Tags for Advanced SEO -->
+    <meta name="description" content="انضم إلى أكبر وأجمل قروب تلغرام جزائري (قصرة Dz) للتعارف والدردشة والقصرة. أجواء احترام ومجتمع مميز يجمع كل الجزائريين.">
+    <meta name="keywords" content="قروب تلغرام جزائري, قصرة dz, دردشة جزائرية, تعارف الجزائر, تلغرام الجزائر, قصرة جزائرية, مجموعات تلغرام">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Qasra Dz Team">
 
-    <!-- Google Fonts -->
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abdou0550203003-sudo.github.io/">
+    <meta property="og:title" content="قروب قصرة جزائري | مجتمع التعارف والدردشة">
+    <meta property="og:description" content="انضم إلى أكبر وأجمل قروب تلغرام جزائري للتعارف والدردشة. أجواء مميزة ومجتمع راقٍ.">
+    <meta property="og:image" content="hero.jpg">
+
+    <!-- Twitter Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://abdou0550203003-sudo.github.io/">
+    <meta property="twitter:title" content="قروب قصرة جزائري | مجتمع التعارف والدردشة">
+    <meta property="twitter:description" content="انضم إلى أكبر وأجمل قروب تلغرام جزائري للتعارف والدردشة.">
+    <meta property="twitter:image" content="hero.jpg">
+
+    <!-- Google Fonts Import (Cairo Font) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
 
-    <!-- CSS Styling -->
+    <!-- Full Stylesheets & Animation CSS -->
     <style>
+        /* Base Reset */
         * {
             box-sizing: border-box;
             margin: 0;
             padding: 0;
             font-family: 'Cairo', sans-serif;
+            -webkit-tap-highlight-color: transparent;
         }
 
         body {
-            background-color: #0f172a;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
             color: #f8fafc;
             display: flex;
             flex-direction: column;
             min-height: 100vh;
             align-items: center;
             justify-content: space-between;
-            padding: 20px;
+            padding: 20px 15px;
             text-align: center;
         }
 
+        /* Container Card Setup */
         .container {
-            max-width: 600px;
+            max-width: 650px;
             width: 100%;
             margin: auto;
-            background: #1e293b;
-            padding: 30px 20px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-            border: 1px solid #334155;
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 35px 25px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        /* Hero Image Container and Styling */
+        .img-box {
+            width: 100%;
+            border-radius: 18px;
+            overflow: hidden;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            border: 2px solid #3b82f6;
         }
 
         .hero-img {
             width: 100%;
-            max-height: 280px;
+            height: auto;
+            max-height: 320px;
             object-fit: cover;
-            border-radius: 15px;
-            margin-bottom: 20px;
-            border: 2px solid #3b82f6;
+            display: block;
         }
 
-        h1 {
-            font-size: 26px;
-            font-weight: 900;
+        /* Badge Tag */
+        .badge {
+            display: inline-block;
+            background-color: rgba(59, 130, 246, 0.2);
             color: #38bdf8;
-            margin-bottom: 12px;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 6px 16px;
+            border-radius: 50px;
+            margin-bottom: 15px;
+            border: 1px solid rgba(56, 189, 248, 0.3);
+        }
+
+        /* Typography */
+        h1 {
+            font-size: 28px;
+            font-weight: 900;
+            color: #ffffff;
+            margin-bottom: 15px;
+            line-height: 1.3;
+        }
+
+        h1 span {
+            color: #38bdf8;
         }
 
         p {
             font-size: 16px;
             color: #cbd5e1;
-            line-height: 1.6;
-            margin-bottom: 25px;
+            line-height: 1.8;
+            margin-bottom: 30px;
+            font-weight: 400;
         }
 
+        /* Features List Box */
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 30px;
+            background: rgba(15, 23, 42, 0.6);
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .feature-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-size: 13px;
+            color: #94a3b8;
+        }
+
+        .feature-item strong {
+            color: #f8fafc;
+            font-size: 15px;
+            margin-bottom: 3px;
+        }
+
+        /* Primary Action CTA Button */
         .btn-telegram {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            gap: 10px;
-            background-color: #229ed9;
-            color: white;
-            font-size: 18px;
+            gap: 12px;
+            background: linear-gradient(135deg, #229ed9 0%, #0088cc 100%);
+            color: #ffffff;
+            font-size: 19px;
             font-weight: 700;
-            padding: 14px 28px;
+            padding: 16px 32px;
             border-radius: 50px;
             text-decoration: none;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 15px rgba(34, 158, 217, 0.4);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 8px 25px rgba(34, 158, 217, 0.4);
             width: 100%;
-            max-width: 300px;
+            max-width: 340px;
+            border: none;
+            cursor: pointer;
         }
 
         .btn-telegram:hover {
-            background-color: #1a82b4;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(34, 158, 217, 0.6);
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(34, 158, 217, 0.6);
+            background: linear-gradient(135deg, #25a9e8 0%, #0099e6 100%);
         }
 
+        .btn-telegram:active {
+            transform: translateY(-1px);
+        }
+
+        /* Footer Info */
         footer {
-            margin-top: 30px;
-            font-size: 14px;
+            margin-top: 40px;
+            font-size: 13px;
             color: #64748b;
         }
     </style>
@@ -116,24 +199,46 @@
 <body>
 
     <div class="container">
-        <!-- Hero Image -->
-        <img src="hero.jpg" alt="قروب قصرة جزائري" class="hero-img">
+        <!-- Main Image Section -->
+        <div class="img-box">
+            <img src="hero.jpg" alt="قروب قصرة جزائري" class="hero-img">
+        </div>
 
-        <!-- Main Title & Description -->
-        <h1>مرحباً بكم في قروب قصرة جزائري 🇩🇿</h1>
-        <p>المكان الأفضل للدردشة، القصرة، وتكوين صداقات جديدة في أجواء محترمة وممتعة. اضغط على الزر أدناه للانضمام إلينا مباشرة عبر التلغرام!</p>
+        <!-- Community Badge -->
+        <div class="badge">🇩🇿 المجموعة الرسمية على التلغرام</div>
 
-        <!-- Telegram Join Button -->
-        <a href="https://t.me/" target="_blank" class="btn-telegram">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+        <!-- Headline & Content -->
+        <h1>مرحباً بكم في <span>قروب قصرة جزائري</span></h1>
+        <p>المكان والأجواء الأفضل للتعارف والدردشة والقصرة الجزائرية الأصيلة. انضم إلينا وتعرف على أصدقاء جدد في مجتمع محترم وممتع يرحب بالجميع!</p>
+
+        <!-- Extra Highlights Grid -->
+        <div class="features">
+            <div class="feature-item">
+                <strong>مجتمع متفاعل</strong>
+                <span>دردشة يومية</span>
+            </div>
+            <div class="feature-item">
+                <strong>أجواء محترمة</strong>
+                <span>إدارة متواجدة</span>
+            </div>
+            <div class="feature-item">
+                <strong>انضمام مجاني</strong>
+                <span>بنقرة واحدة</span>
+            </div>
+        </div>
+
+        <!-- Main Call To Action Button -->
+        <a href="https://t.me/" target="_blank" rel="noopener noreferrer" class="btn-telegram">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69.01-.03.01-.14-.07-.2-.08-.06-.19-.04-.27-.02-.12.02-1.96 1.25-5.54 3.67-.52.36-.99.53-1.42.52-.47-.01-1.37-.26-2.03-.48-.82-.27-1.47-.42-1.42-.88.03-.24.37-.49 1.02-.75 3.98-1.73 6.64-2.87 7.97-3.43 3.8-1.58 4.59-1.86 5.1-1.87.11 0 .37.03.54.17.14.12.18.28.2.45-.02.07-.02.13-.03.22z"/>
             </svg>
             انضم للقروب الآن
         </a>
     </div>
 
+    <!-- Footer Copyright -->
     <footer>
-        &copy; 2026 جميع الحقوق محفوظة - قروب قصرة جزائري
+        &copy; 2026 جميع الحقوق محفوظة - مجتمع قصرة جزائري
     </footer>
 
 </body>
